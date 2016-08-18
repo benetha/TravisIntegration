@@ -17,7 +17,7 @@ public class OregTest {
 
 	@Before
 	public void setUp() throws Exception {
-		 System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver.exe" ); 
+		 System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver" ); 
 		 driver = new ChromeDriver();
 		 driver.manage().window().maximize();
 		 oreg = new Oreg(driver);
